@@ -1,0 +1,89 @@
+{
+  "l1StartingBlockTag": "0xa7df7e4212a15db41af75dbf57896b8229d470c9090fa5630f375d502b452128",
+
+  "l1ChainID": 17000,
+  "l2ChainID": 52001,
+  "l2BlockTime": 2,
+  "l1BlockTime": 12,
+
+  "maxSequencerDrift": 600,
+  "sequencerWindowSize": 3600,
+  "channelTimeout": 300,
+
+  "p2pSequencerAddress": "0xBcBD4D29DE83034b20F8E987835841689396251F",
+  "batchInboxAddress": "0xff00000000000000000000000000000000052001",
+  "batchSenderAddress": "0x89624114EBFd65d105BF0DcdAF98396a5F0Eb150",
+
+  "l2OutputOracleSubmissionInterval": 120,
+  "l2OutputOracleStartingBlockNumber": 0,
+  "l2OutputOracleStartingTimestamp": 1725613656,
+
+  "l2OutputOracleProposer": "0x7365F1d585CB884CAa856ee8978A4EfdD43250aB",
+  "l2OutputOracleChallenger": "0x01429fDC116ADd3D8Da18f74C2b0a2AA1d936Baa",
+
+  "finalizationPeriodSeconds": 12,
+
+  "proxyAdminOwner": "0x01429fDC116ADd3D8Da18f74C2b0a2AA1d936Baa",
+  "baseFeeVaultRecipient": "0x01429fDC116ADd3D8Da18f74C2b0a2AA1d936Baa",
+  "l1FeeVaultRecipient": "0x01429fDC116ADd3D8Da18f74C2b0a2AA1d936Baa",
+  "sequencerFeeVaultRecipient": "0x01429fDC116ADd3D8Da18f74C2b0a2AA1d936Baa",
+  "finalSystemOwner": "0x01429fDC116ADd3D8Da18f74C2b0a2AA1d936Baa",
+  "superchainConfigGuardian": "0x01429fDC116ADd3D8Da18f74C2b0a2AA1d936Baa",
+
+  "baseFeeVaultMinimumWithdrawalAmount": "0x8ac7230489e80000",
+  "l1FeeVaultMinimumWithdrawalAmount": "0x8ac7230489e80000",
+  "sequencerFeeVaultMinimumWithdrawalAmount": "0x8ac7230489e80000",
+  "baseFeeVaultWithdrawalNetwork": 0,
+  "l1FeeVaultWithdrawalNetwork": 0,
+  "sequencerFeeVaultWithdrawalNetwork": 0,
+
+  "gasPriceOracleOverhead": 2100,
+  "gasPriceOracleScalar": 1000000,
+
+  "enableGovernance": true,
+  "governanceTokenSymbol": "OP",
+  "governanceTokenName": "Optimism",
+  "governanceTokenOwner": "0x01429fDC116ADd3D8Da18f74C2b0a2AA1d936Baa",
+
+  "l2GenesisBlockGasLimit": "0x1c9c380",
+  "l2GenesisBlockBaseFeePerGas": "0x3b9aca00",
+
+  "eip1559Denominator": 50,
+  "eip1559DenominatorCanyon": 250,
+  "eip1559Elasticity": 6,
+  "l2GenesisFjordTimeOffset": "0x0",
+  "l2GenesisRegolithTimeOffset": "0x0",
+  "l2GenesisEcotoneTimeOffset": "0x0",
+  "l2GenesisDeltaTimeOffset": "0x0",
+  "l2GenesisCanyonTimeOffset": "0x0",
+  "systemConfigStartBlock": 0,
+
+  "requiredProtocolVersion": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "recommendedProtocolVersion": "0x0000000000000000000000000000000000000000000000000000000000000000",
+
+  "faultGameAbsolutePrestate": "0x03c7ae758795765c6664a5d39bf63841c71ff191e9189522bad8ebff5d4eca98",
+  "faultGameMaxDepth": 44,
+  "faultGameClockExtension": 0,
+  "faultGameMaxClockDuration": 1200,
+  "faultGameGenesisBlock": 0,
+  "faultGameGenesisOutputRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "faultGameSplitDepth": 14,
+  "faultGameWithdrawalDelay": 600,
+
+  "preimageOracleMinProposalSize": 1800000,
+  "preimageOracleChallengePeriod": 300,
+
+  "useFaultProofs": false,
+  "usePlasma": true,
+  "daCommitmentType": "GenericCommitment",
+  "daChallengeWindow": 16,
+  "daResolveWindow": 16,
+  "daBondSize": 1000000,
+  "daResolverRefundPercentage": 0,
+
+  "gasPriceOracleBaseFeeScalar": 1368,
+  "gasPriceOracleBlobBaseFeeScalar": 810949,
+
+  "useCustomGasToken": true,
+  "customGasTokenAddress": "0xe1543b52557db75bb303262fc2a9289a98061bf3"
+}
